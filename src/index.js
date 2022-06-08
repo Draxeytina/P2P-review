@@ -2,7 +2,7 @@ import './style.css';
 import TaskList from './modules/taskList';
 
 const ulContainer = document.getElementById('list');
-let tasks = [];
+const tasks = [];
 let checkboxes = document.querySelectorAll('.checkbox');
 
 const load = () => {
